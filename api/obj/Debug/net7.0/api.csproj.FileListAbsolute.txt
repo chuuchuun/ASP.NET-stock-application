@@ -1,0 +1,7 @@
+C:\Users\alla\Documents\GitHub\NET study\FinShark\api\obj\Debug\net7.0\api.csproj.AssemblyReference.cache
+C:\Users\alla\Documents\GitHub\NET study\FinShark\api\obj\Debug\net7.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alla\Documents\GitHub\NET study\FinShark\api\obj\Debug\net7.0\api.AssemblyInfoInputs.cache
+C:\Users\alla\Documents\GitHub\NET study\FinShark\api\obj\Debug\net7.0\api.AssemblyInfo.cs
+C:\Users\alla\Documents\GitHub\NET study\FinShark\api\obj\Debug\net7.0\api.csproj.CoreCompileInputs.cache
+C:\Users\alla\Documents\GitHub\NET study\FinShark\api\obj\Debug\net7.0\api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alla\Documents\GitHub\NET study\FinShark\api\obj\Debug\net7.0\api.MvcApplicationPartsAssemblyInfo.cache
