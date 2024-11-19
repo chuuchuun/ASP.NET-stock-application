@@ -11,6 +11,7 @@ using api.Repositories;
 using api.Interfaces;
 using api.Helpers;
 using Microsoft.AspNetCore.Authorization;
+using api.Dtos.Comment;
 
 namespace api.Controllers
 {
@@ -32,8 +33,8 @@ namespace api.Controllers
                 return BadRequest(ModelState);
             }
             var stocks = await _stockRepo.GetAllAsync(query);
-            var stockDTO = stocks.Select(s => s.ToStockDto());
-            return Ok(stocks);
+            var stockDTO = stocks.Select(s => s.ToStockDto()).ToList();
+            return Ok(stockDTO);
         }
 
         [HttpGet("{id:int}")]
