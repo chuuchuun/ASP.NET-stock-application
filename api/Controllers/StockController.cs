@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using api.Repositories;
 using api.Interfaces;
 using api.Helpers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace api.Controllers
 {
@@ -25,6 +26,7 @@ namespace api.Controllers
             _context = context;
         }
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query){
             if(!ModelState.IsValid){
                 return BadRequest(ModelState);
